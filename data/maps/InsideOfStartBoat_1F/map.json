@@ -58,6 +58,13 @@
       "elevation": 0,
       "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
       "dest_warp_id": "7"
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_0F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

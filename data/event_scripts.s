@@ -1065,3 +1065,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/InsideOfStartBoat_1F/scripts.inc"
 
 	.include "data/maps/InsideOfStartBoat_0F/scripts.inc"
+
+	.include "data/maps/BudportCity/scripts.inc"

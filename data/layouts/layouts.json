@@ -4424,7 +4424,7 @@
     {
       "id": "LAYOUT_INSIDE_OF_START_BOAT_1F",
       "name": "InsideOfStartBoat_1F_Layout",
-      "width": 25,
+      "width": 26,
       "height": 10,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_InsideShip",
@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/InsideOfStartBoat_0F/border.bin",
       "blockdata_filepath": "data/layouts/InsideOfStartBoat_0F/map.bin"
+    },
+    {
+      "id": "LAYOUT_BUDPORT_CITY",
+      "name": "BudportCity_Layout",
+      "width": 46,
+      "height": 40,
+      "primary_tileset": "gTileset_GeneralWithStairs",
+      "secondary_tileset": "gTileset_Budport",
+      "border_filepath": "data/layouts/BudportCity/border.bin",
+      "blockdata_filepath": "data/layouts/BudportCity/map.bin"
     }
   ]
 }

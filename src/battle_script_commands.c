@@ -15216,6 +15216,12 @@ static void Cmd_trysetcaughtmondexflags(void)
     {
         gBattlescriptCurrInstr = cmd->failInstr;
     }
+    // With the following change, if you catch a Pokémon without having the Pokédex, it won't show their entry. It will still register them, for when you do get the Dex
+    else if (!FlagGet(FLAG_SYS_POKEDEX_GET))
+    {
+        HandleSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_SET_CAUGHT, personality);
+        gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
+    }
     else
     {
         HandleSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_SET_CAUGHT, personality);

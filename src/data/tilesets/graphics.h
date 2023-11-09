@@ -1653,3 +1653,22 @@ const u16 gTilesetPalettes_GeneralWithStairs[][16] =
 };
 
 const u32 gTilesetTiles_GeneralWithStairs[] = INCBIN_U32("data/tilesets/primary/general_with_stairs/tiles.4bpp.lz");
+
+const u16 gTilesetPalettes_Budport[][16] =
+{
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/00.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/01.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/02.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/03.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/04.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/05.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/06.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/07.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/08.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/09.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/10.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/11.gbapal"),
+    INCBIN_U16("data/tilesets/secondary/budport/palettes/12.gbapal"),
+};
+
+const u32 gTilesetTiles_Budport[] = INCBIN_U32("data/tilesets/secondary/budport/tiles.4bpp.lz");

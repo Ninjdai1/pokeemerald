@@ -17,7 +17,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_1F",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_0F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_0F",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_BUDPORT_CITY",
+      "dest_warp_id": "0"
+    }
   ],
   "coord_events": [
 
