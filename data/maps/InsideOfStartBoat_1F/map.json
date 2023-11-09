@@ -1,0 +1,69 @@
+{
+  "id": "MAP_INSIDE_OF_START_BOAT_1F",
+  "name": "InsideOfStartBoat_1F",
+  "layout": "LAYOUT_INSIDE_OF_START_BOAT_1F",
+  "music": "MUS_NONE",
+  "region_map_section": "MAPSEC_INSIDE_OF_TRUCK",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_INSIDE_OF_START_BOAT_CABINS",
+      "dest_warp_id": "7"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

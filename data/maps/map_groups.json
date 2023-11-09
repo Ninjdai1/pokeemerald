@@ -492,7 +492,10 @@
     "BattlePyramidSquare14",
     "BattlePyramidSquare15",
     "BattlePyramidSquare16",
-    "UnionRoom"
+    "UnionRoom",
+    "InsideOfStartBoat_Cabins",
+    "InsideOfStartBoat_1F",
+    "InsideOfStartBoat_0F"
   ],
   "gMapGroup_SpecialArea": [
     "SafariZone_Northwest",
