@@ -1,6 +1,14 @@
 {
   "map_sections": [
     {
+      "map_section": "MAPSEC_BUDPORT_CITY",
+      "name": "BUDPORT CITY",
+      "x": 2,
+      "y": 2,
+      "width": 1,
+      "height": 1
+    },
+    {
       "map_section": "MAPSEC_LITTLEROOT_TOWN",
       "name": "LITTLEROOT TOWN",
       "x": 4,

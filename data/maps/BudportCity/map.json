@@ -3,7 +3,7 @@
   "name": "BudportCity",
   "layout": "LAYOUT_BUDPORT_CITY",
   "music": "MUS_SLATEPORT",
-  "region_map_section": "MAPSEC_SLATEPORT_CITY",
+  "region_map_section": "MAPSEC_BUDPORT_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

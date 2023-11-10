@@ -4446,7 +4446,7 @@
       "name": "BudportCity_Layout",
       "width": 46,
       "height": 40,
-      "primary_tileset": "gTileset_GeneralWithStairs",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Budport",
       "border_filepath": "data/layouts/BudportCity/border.bin",
       "blockdata_filepath": "data/layouts/BudportCity/map.bin"
