@@ -10,8 +10,11 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
     * RHH's pokeemerald expansion
         - Roster goes up to Gen 8, including items
         - Battle mechanics such as megas, S/P split, fairy type...
+        - New Exp Share
         - For more info, check out [their github](https://github.com/rh-hideout/pokeemerald-expansion)
-    * SIDEWAYS STAIRS :OOOOOO by ghoulslash
+    * SIDEWAYS STAIRS :OOOOOO [by ghoulslash](https://www.pokecommunity.com/showthread.php?p=10175618)
+    * Bigger bag (Up to 999 of each item)
+
     ## WIP
     * Brand new region of ???????
 
