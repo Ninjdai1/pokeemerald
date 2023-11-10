@@ -20,6 +20,8 @@
 sound/**/*.bin
 sound/songs/midi/*.s
 tools/agbcc
+tools/poryscript
+Porymap-Animation
 *.map
 *.ld
 *.bat
