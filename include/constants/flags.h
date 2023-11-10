@@ -652,7 +652,7 @@
 #define FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY                (FLAG_HIDDEN_ITEMS_START + 0x6E)
 #define FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL                 (FLAG_HIDDEN_ITEMS_START + 0x6F)
 
-#define FLAG_UNUSED_0x264  0x264 // Unused Flag
+#define FLAG_EXP_SHARE_GIVES_TO_ALL  0x264
 #define FLAG_UNUSED_0x265  0x265 // Unused Flag
 #define FLAG_UNUSED_0x266  0x266 // Unused Flag
 #define FLAG_UNUSED_0x267  0x267 // Unused Flag
@@ -1383,7 +1383,7 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_VISITED_BUDPORT_CITY                   (SYSTEM_FLAGS + 0x21) // Unused Flag
+#define FLAG_VISITED_BUDPORT_CITY                   (SYSTEM_FLAGS + 0x21)
 #define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
 #define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
 #define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
