@@ -11495,38 +11495,8 @@
         {
           "map": "MAP_BUDPORT_CITY",
           "base_label": "gBudportCity0",
-          "water_mons": {
-            "encounter_rate": 0,
-            "mons": [
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_ARCEUS_WATER"
-              },
-              {
-                "min_level": 10,
-                "max_level": 10,
-                "species": "SPECIES_TYRANITAR_MEGA"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_ABSOL_MEGA"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
-              }
-            ]
-          },
           "land_mons": {
-            "encounter_rate": 0,
+            "encounter_rate": 20,
             "mons": [
               {
                 "min_level": 5,
@@ -11536,7 +11506,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_ZYGARDE_10"
+                "species": "SPECIES_RATTATA_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -11577,6 +11547,36 @@
                 "min_level": 5,
                 "max_level": 5,
                 "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_NONE"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ARCEUS_WATER"
+              },
+              {
+                "min_level": 10,
+                "max_level": 10,
+                "species": "SPECIES_TYRANITAR_MEGA"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ABSOL_MEGA"
               },
               {
                 "min_level": 5,

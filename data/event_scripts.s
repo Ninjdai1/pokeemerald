@@ -103,6 +103,7 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
+  .include "data/maps/BudportCity/scripts.inc"
 	.include "data/maps/PetalburgCity/scripts.inc"
 	.include "data/maps/SlateportCity/scripts.inc"
 	.include "data/maps/MauvilleCity/scripts.inc"
@@ -160,6 +161,10 @@ gStdScripts_End::
 	.include "data/maps/Underwater_Route129/scripts.inc"
 	.include "data/maps/Underwater_Route105/scripts.inc"
 	.include "data/maps/Underwater_Route125/scripts.inc"
+
+  .include "data/maps/BudportCity_PokemonCenter_1F/scripts.inc"
+  .include "data/maps/BudportCity_PokemonCenter_2F/scripts.inc"
+
 	.include "data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc"
 	.include "data/maps/LittlerootTown_BrendansHouse_2F/scripts.inc"
 	.include "data/maps/LittlerootTown_MaysHouse_1F/scripts.inc"
@@ -1065,5 +1070,3 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/InsideOfStartBoat_1F/scripts.inc"
 
 	.include "data/maps/InsideOfStartBoat_0F/scripts.inc"
-
-	.include "data/maps/BudportCity/scripts.inc"

@@ -1,6 +1,7 @@
 {
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_IndoorBudport",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -94,6 +95,10 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "BudportCity"
+  ],
+  "gMapGroup_IndoorBudport": [
+    "BudportCity_PokemonCenter_1F",
+    "BudportCity_PokemonCenter_2F"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -15,7 +15,7 @@ Debug_CheatStart::
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
 	setflag FLAG_ADVENTURE_STARTED
 	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setflag FLAG_HIDE_INSIDE_OF_BOAT_BIRCH_STARTERS_BAG
 	setvar VAR_BIRCH_LAB_STATE, 2
 	setvar VAR_ROUTE101_STATE, 3
 	givemon SPECIES_TREECKO, 20, ITEM_NONE
@@ -142,28 +142,28 @@ DebugScript_HatchAnEgg_Text_EmptyParty::
 
 DebugScript_HatchAnEgg_Text_NotAnEgg::
 	.string "That's not a Pokémon Egg.$"
-	
+
 DebugScript_ZeroDaycareMons::
 	msgbox DebugText_DaycareNoPokemon, MSGBOX_DEFAULT
 	releaseall
 	end
-	
+
 DebugScript_OneDaycareMons::
 	msgbox DebugText_DaycareOnePokemon, MSGBOX_DEFAULT
 	releaseall
 	end
-	
+
 DebugScript_DaycareMonsNotCompatible::
 	msgbox DebugText_DaycarePokemonNotCompatible, MSGBOX_DEFAULT
 	releaseall
 	end
-	
+
 DebugText_DaycareNoPokemon:
 	.string "You have no Pokémon at Daycare.$"
-	
+
 DebugText_DaycareOnePokemon:
 	.string "You have only one Pokémon at Daycare.$"
-	
+
 DebugText_DaycarePokemonNotCompatible:
 	.string "Your Pokémon at Daycare can't\nhave babies together!$"
 

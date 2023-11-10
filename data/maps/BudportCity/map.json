@@ -23,6 +23,13 @@
       "elevation": 0,
       "dest_map": "MAP_INSIDE_OF_START_BOAT_0F",
       "dest_warp_id": "3"
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_BUDPORT_CITY_POKEMON_CENTER_1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
