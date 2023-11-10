@@ -14,6 +14,7 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
         - For more info, check out [their github](https://github.com/rh-hideout/pokeemerald-expansion)
     * SIDEWAYS STAIRS :OOOOOO [by ghoulslash](https://www.pokecommunity.com/showthread.php?p=10175618)
     * Bigger bag (Up to 999 of each item)
+    * X/Y-style wrapping summary screen ([Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875&postcount=27))
 
     ## WIP
     * Brand new region of ???????
