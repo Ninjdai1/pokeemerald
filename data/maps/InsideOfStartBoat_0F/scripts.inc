@@ -3,6 +3,8 @@ InsideOfStartBoat_0F_MapScripts::
 
 InsideOfStartBoat_0F_EventScript_BirchsBag::
 	lock
+//  textscreen textId:req, x:req, y:req, width:req, height:req, speed:req, bgColor:req, fontId:req, fontColor:req
+  textscreen 0, 5, 5, 10, 5, 2, 0, 1, 1
 	faceplayer
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_RESCUED_BIRCH

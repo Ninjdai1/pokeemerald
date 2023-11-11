@@ -50,6 +50,8 @@
 #include "window.h"
 #include "constants/event_objects.h"
 
+#include "text_screen.h"
+
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(struct ScriptContext *ctx);
 
@@ -2325,4 +2327,10 @@ bool8 ScrCmd_warpwhitefade(struct ScriptContext *ctx)
     DoWhiteFadeWarp();
     ResetInitialPlayerAvatarState();
     return TRUE;
+}
+
+bool8 ScrCmd_textscreen(struct ScriptContext *ctx)
+{
+    InitTextScreen(ctx);
+    return FALSE;
 }

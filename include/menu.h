@@ -42,6 +42,8 @@ struct MenuAction
 
 extern const u16 gStandardMenuPalette[];
 
+u16 AddWindowParameterized(u8, u8, u8, u8, u8, u8, u16);
+
 void FreeAllOverworldWindowBuffers(void);
 void InitStandardTextBoxWindows(void);
 void InitTextBoxGfxAndPrinters(void);

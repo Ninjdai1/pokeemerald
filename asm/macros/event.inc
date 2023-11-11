@@ -1735,6 +1735,20 @@
 	.2byte \quantity
 	.endm
 
+  @ Textscreen (functionality is in the name)
+  .macro textscreen textId:req, x:req, y:req, width:req, height:req, speed:req, bgColor:req, fontId:req, fontColor:req
+  .byte 0xe3
+  .byte \textId
+  .byte \x
+  .byte \y
+  .byte \width
+  .byte \height
+  .byte \speed
+  .byte \bgColor
+  .byte \fontId
+  .byte \fontColor
+  .endm
+
 
 @ Supplementary
 
@@ -2018,7 +2032,7 @@
 	setvar VAR_0x8002, \tryMultiple
 	special TrySpecialOverworldEvo
 	.endm
-	
+
 	.macro ai_vs_ai_battle trainer1:req, trainer2:req
 	setflag B_FLAG_AI_VS_AI_BATTLE
 	setvar VAR_0x8004, \trainer1
