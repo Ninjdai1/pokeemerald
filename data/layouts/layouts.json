@@ -4444,7 +4444,7 @@
     {
       "id": "LAYOUT_BUDPORT_CITY",
       "name": "BudportCity_Layout",
-      "width": 46,
+      "width": 50,
       "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Budport",
