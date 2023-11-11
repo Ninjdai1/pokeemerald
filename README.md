@@ -16,12 +16,13 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
     * Bigger bag (Up to 999 of each item)
     * X/Y-style wrapping summary screen ([Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875&postcount=27))
     * Options default to fast text speed and set battle type
+    * Day/Night system [by quocmanh94](https://github.com/quocmanh94/pokeemerald/commit/a0fd237009a1bd1f999e3ab25ca07508985b4435)
 
 **WIP**
 - Brand new region of ???????
 
-**For the future**
-- D/N System with adapted encounters
+**For the future (TODO list)**
+- Adapt encounters to D/N system
 - Every pokemon obtainable, including mythicals/legendaries
 
 ------
