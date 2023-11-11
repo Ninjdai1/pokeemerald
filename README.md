@@ -24,6 +24,12 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
 **For the future (TODO list)**
 - Adapt encounters to D/N system
 - Every pokemon obtainable, including mythicals/legendaries
+- 4G-esque OW graphics
+- Better inventory system
+   * TM Case, Berry pouch
+   * Later gen-like UI
+   * Sorting
+
 
 ------
 I do not plan on adding new mons or forms, as I believe there is so much unexploited "vanilla" content that I won't ever need to add that kind of content to a game :)
