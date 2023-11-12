@@ -1881,6 +1881,35 @@ static void CreateFlyDestIcons(void)
         }
         canFlyFlag++;
     }
+    canFlyFlag = FLAG_VISITED_BUDPORT_CITY;
+    for (mapSecId = MAPSEC_BUDPORT_CITY; mapSecId <= MAPSEC_BUDPORT_CITY; mapSecId++)
+    {
+        GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
+        x = (x + MAPCURSOR_X_MIN) * 8 + 4;
+        y = (y + MAPCURSOR_Y_MIN) * 8 + 4;
+
+        if (width == 2)
+            shape = SPRITE_SHAPE(16x8);
+        else if (height == 2)
+            shape = SPRITE_SHAPE(8x16);
+        else
+            shape = SPRITE_SHAPE(8x8);
+
+        spriteId = CreateSprite(&sFlyDestIconSpriteTemplate, x, y, 10);
+        if (spriteId != MAX_SPRITES)
+        {
+            gSprites[spriteId].oam.shape = shape;
+
+            if (FlagGet(canFlyFlag))
+                gSprites[spriteId].callback = SpriteCB_FlyDestIcon;
+            else
+                shape += 3;
+
+            StartSpriteAnim(&gSprites[spriteId], shape);
+            gSprites[spriteId].sIconMapSec = mapSecId;
+        }
+        canFlyFlag++;
+    }
 }
 
 // Draw a red outline box on the mapsec if its corresponding flag has been set
