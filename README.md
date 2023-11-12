@@ -27,6 +27,7 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
     * Options default to fast text speed and set battle type
     * Day/Night system [by quocmanh94](https://github.com/quocmanh94/pokeemerald/commit/a0fd237009a1bd1f999e3ab25ca07508985b4435)
     * Faster text speed ([ellabrella](https://www.pokecommunity.com/showpost.php?p=10400198))
+    * EV/IV Menu (will be accessible in the late game) (credits go to [LOuroboros](https://github.com/DizzyEggg/pokeemerald/commit/e11dac36d69b09557a63a217caa33c7e11728831) and [Acimut](https://github.com/Acimut/Custom-EV-IV-Display-Screen))
 
 **WIP**
 - Brand new region of ???????

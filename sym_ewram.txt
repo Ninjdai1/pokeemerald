@@ -151,3 +151,4 @@
 	.include "src/debug.o"
 	.include "src/battle_controller_player.o"
 	.include "src/text_screen.o"
+	.include "src/ev_iv_screen.o"
