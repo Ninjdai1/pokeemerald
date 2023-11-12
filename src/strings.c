@@ -36,6 +36,9 @@ const u8 gText_SaveFileCorrupted[] = _("The save file is corrupted. The\npreviou
 const u8 gText_SaveFileErased[] = _("The save file has been erased\ndue to corruption or damage.");
 const u8 gJPText_No1MSubCircuit[] = _("1Mサブきばんが ささっていません！");
 const u8 gText_BatteryRunDry[] = _("The internal battery has run dry.\nThe game can be played.\pHowever, clock-based events will\nno longer occur.");
+const u8 gText_EmuWarning[] = _("Inaccurate emulator detected.\nYou should use a recent emulator with\nsupport for RTC (Real Time Clock).\nThe game should still work, but\nyou may encouter errors");
+const u8 gText_TimeWarning[] = _("Real Time Clock is more than 1 day\nbehind saved time.\nPlease don't tamper with the RTC, as it may\nbreak some functionnality");
+
 const u8 gText_Player[] = _("PLAYER"); // Unused
 const u8 gText_Pokedex[] = _("POKéDEX"); // Unused
 const u8 gText_Time[] = _("TIME");

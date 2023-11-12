@@ -179,6 +179,7 @@ static u8 sBirchSpeechMainTaskId;
 static u32 InitMainMenu(bool8);
 static void Task_MainMenuCheckSaveFile(u8);
 static void Task_MainMenuCheckBattery(u8);
+static bool8 IsAccurateGBA(void);
 static void Task_WaitForSaveFileErrorWindow(u8);
 static void CreateMainMenuErrorWindow(const u8 *);
 static void ClearMainMenuWindowTilemap(const struct WindowTemplate *);
@@ -702,8 +703,19 @@ static void Task_WaitForSaveFileErrorWindow(u8 taskId)
     }
 }
 
+static bool8 IsAccurateGBA(void) { // tests to see whether running on either an accurate emulator in >=2020, or real hardware
+  u32 code[5] = {0xFF1EE12F, 0xE1DF00B0, 0xE12FFF1E, 0xAAAABBBB, 0xCCCCDDDD}; // ARM: _;ldrh r0, [pc];bx lr
+  u32 func = (u32) &code[0];
+  if (func & 3) // not word aligned; safer to just return false here
+    return FALSE;
+  func = (func & ~3) | 0x2; // misalign PC to test PC-relative loading
+  return ((u32 (*)(void)) func)() == code[3] >> 16;
+}
+
 static void Task_MainMenuCheckBattery(u8 taskId)
 {
+    s16 *data = gTasks[taskId].data;
+
     if (!gPaletteFade.active)
     {
         SetGpuReg(REG_OFFSET_WIN0H, 0);
@@ -716,7 +728,21 @@ static void Task_MainMenuCheckBattery(u8 taskId)
 
         if (!(RtcGetErrorStatus() & RTC_ERR_FLAG_MASK))
         {
-            gTasks[taskId].func = Task_DisplayMainMenu;
+            if (tMenuType != HAS_NO_SAVED_GAME)
+                RtcCalcLocalTime();
+            if (!IsAccurateGBA()) {
+                CreateMainMenuErrorWindow(gText_EmuWarning);
+                gTasks[taskId].func = Task_WaitForBatteryDryErrorWindow;
+            // save exists and stored day count is more than a day ahead of RTC
+            } else if (tMenuType != HAS_NO_SAVED_GAME && VarGet(VAR_DAYS) > gLocalTime.days + 1) {
+                // Reset days var to today + 1
+                // Allowing daily events to happen again in a day
+                VarSet(VAR_DAYS, gLocalTime.days + 1);
+                CreateMainMenuErrorWindow(gText_TimeWarning);
+                gTasks[taskId].func = Task_WaitForBatteryDryErrorWindow;
+            } else {
+                gTasks[taskId].func = Task_DisplayMainMenu;
+            }
         }
         else
         {

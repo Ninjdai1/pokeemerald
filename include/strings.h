@@ -328,6 +328,8 @@ extern const u8 gText_SaveFileErased[];
 extern const u8 gText_SaveFileCorrupted[];
 extern const u8 gJPText_No1MSubCircuit[];
 extern const u8 gText_BatteryRunDry[];
+extern const u8 gText_EmuWarning[];
+extern const u8 gText_TimeWarning[];
 extern const u8 gText_MainMenuNewGame[];
 extern const u8 gText_MainMenuOption[];
 extern const u8 gText_MainMenuContinue[];
