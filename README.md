@@ -60,6 +60,7 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
 - Ellabrella (Text speed changes)
 - Zeturic (X/Y-style wrapping summary screen)
 - Anon822 (Physical/Special split icons in battle)
+- DizzyEgg (Colored natures)
 
 ### Tools used
 - Porymap
