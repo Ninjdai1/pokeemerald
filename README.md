@@ -20,14 +20,12 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
     * Battle mechanics such as megas, S/P split, fairy type...
     * New Exp Share
     * For more info, check out [their github](https://github.com/rh-hideout/pokeemerald-expansion)
-- SIDEWAYS STAIRS :OOOOOO [by ghoulslash](https://www.pokecommunity.com/showthread.php?p=10175618) (Best feature of the hack frfr)
+- SIDEWAYS STAIRS :OOOOOO (Best feature of the hack frfr)
 - QOL
     * Bigger bag (Up to 999 of each item)
-    * X/Y-style wrapping summary screen ([Zeturic](https://www.pokecommunity.com/showpost.php?p=10060875&postcount=27))
-    * Options default to fast text speed and set battle type
-    * Day/Night system [by quocmanh94](https://github.com/quocmanh94/pokeemerald/commit/a0fd237009a1bd1f999e3ab25ca07508985b4435)
-    * Faster text speed ([ellabrella](https://www.pokecommunity.com/showpost.php?p=10400198))
-    * EV/IV Menu (will be accessible in the late game) (credits go to [LOuroboros](https://github.com/DizzyEggg/pokeemerald/commit/e11dac36d69b09557a63a217caa33c7e11728831) and [Acimut](https://github.com/Acimut/Custom-EV-IV-Display-Screen))
+    * Text greatly sped up.
+    * Day/Night system
+    * EV/IV Menu (will be accessible in the late game)
 
 **WIP**
 - Brand new region of ???????
@@ -36,6 +34,7 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
 - Adapt encounters to D/N system
 - Every pokemon obtainable, including mythicals/legendaries
 - 4G-esque OW graphics
+- Ability to change IVs
 - Better inventory system
    * TM Case, Berry pouch
    * Later gen-like UI
@@ -52,6 +51,16 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
 ### Overworld Sprites
 ### Battle graphics
 - Vent
+### Code
+- The RHH team (pokeemerald-expansion)
+- Ghoulslash (sideways stairs, a lot of contributions in various projects and feature branches)
+- Quocmanh94 (Day/Night system)
+- LOuroboros (EV/IV Menu)
+- Acimut (EV/IV Menu)
+- Ellabrella (Text speed changes)
+- Zeturic (X/Y-style wrapping summary screen)
+- Anon822 (Physical/Special split icons in battle)
+
 ### Tools used
 - Porymap
 - Gimp
