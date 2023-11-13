@@ -45,6 +45,21 @@ If you have suggestions, found bugs, or just want to talk, feel free to DM me on
    * Nicer type text
    * Move effectiveness
 
+## Credits
+### Pokemon Sprites
+- RomHacking Hideout's pokeemerald expansion
+### Trainer Sprites
+### Overworld Sprites
+### Battle graphics
+- Vent
+### Tools used
+- Porymap
+- Gimp
+- TilemapStudio
+
+## Bugs
+No known bugs yet
+
 
 ------
 I do not plan on adding new mons or forms, as I believe there is so much unexploited "vanilla" content that I won't ever need to add that kind of content to a game :)
